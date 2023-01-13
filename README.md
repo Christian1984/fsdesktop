@@ -435,7 +435,7 @@ _Log Level Shortcut_
 
 # Troubleshooting
 
-## "I can stream my appication with FSdeskto, but I cannot interact with it. What is wrong?"
+## "I can stream my appication with FSdesktop, but I cannot interact with it. What is wrong?"
 
 > Please make sure that your setup complies with the following prerequisites:
 >
