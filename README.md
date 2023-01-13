@@ -4,13 +4,13 @@ This utility expansion for Microsoft Flight Simulator brings all your favorite d
 
 FSdesktop can
 
-- enable you to watch your favorite streamers,
-- help you to follow along YouTube tutorials,
-- show you streamers out there your Twitch or YouTube chat
-- make those long distance flights a bit more entertaining by letting you stay in touch with your Discord communities
-- display your vPilot client
-- show you your LittleNavMap flight plans
-- ... and much, much more
+-   enable you to watch your favorite streamers,
+-   help you to follow along YouTube tutorials,
+-   show you streamers out there your Twitch or YouTube chat
+-   make those long distance flights a bit more entertaining by letting you stay in touch with your Discord communities
+-   display your vPilot client
+-   show you your LittleNavMap flight plans
+-   ... and much, much more
 
 right inside your Flight Simulator cockpit! This is is especially helpful for those of us who like to fly in VR (and thus not being able to look at a second screen).
 
@@ -36,14 +36,14 @@ If you like it, please let me know and share it with other VR pilots :-) Also, c
 4. [Support the Development and Go PRO](#support-the-development-and-go-pro)
 5. [Getting Support](#getting-support)
 6. [Features: Free vs. Pro](#features-free-vs-pro)
-6. [Known Limitations and Roadmap](#known-limitations-and-roadmap)
-7. [Components](#components)
-8. [Installation](#installation)
-9. [Usage](#usage)
-10. [Troubleshooting](#troubleshooting)
-11. [Attribution](#attribution)
-12. [Releases and Downloads](#releases-and-downloads)
-13. [Support Your Modders](#support-your-modders)
+7. [Known Limitations and Roadmap](#known-limitations-and-roadmap)
+8. [Components](#components)
+9. [Installation](#installation)
+10. [Usage](#usage)
+11. [Troubleshooting](#troubleshooting)
+12. [Attribution](#attribution)
+13. [Releases and Downloads](#releases-and-downloads)
+14. [Support Your Modders](#support-your-modders)
 
 ---
 
@@ -53,23 +53,23 @@ If you like it, please let me know and share it with other VR pilots :-) Also, c
 
 ![FSdesktop](screenshots/fsdesktop-1.png)
 
-*FSdesktop*
+_FSdesktop_
 
 ![vPilot Inside FSdesktop](screenshots/fsdesktop-vpilot.png)
 
-*vPilot in FSdesktop*
+_vPilot in FSdesktop_
 
 ![Google Chrome Inside FSdesktop](screenshots/fsdesktop-chrome.png)
 
-*Google Chrome in FSdesktop*
+_Google Chrome in FSdesktop_
 
 ![Twitch Chat Inside FSdesktop](screenshots/fsdesktop-twitch.png)
 
-*Twitch Chat in FSdesktop*
+_Twitch Chat in FSdesktop_
 
 ![Toolbar Icon](screenshots/fsdesktop-toolbar.png)
 
-*Toolbar Icon*
+_Toolbar Icon_
 
 ---
 
@@ -225,7 +225,7 @@ YEAH! You rock!!!</td>
 <tbody>
 <tr>
 <td>Click recognition and forwarding should be more reliable</td>
-<td>💡, 🔥</td>
+<td>💡, 🔥, it appears that this mostly impacts Windows 11 users, I am currently inverstigating the issue</td>
 </tr>
 <tr>
 <td>Currently only one window can be streamed at any given time; must go back to to window selector tab to switch</td>
@@ -236,15 +236,11 @@ YEAH! You rock!!!</td>
 <td>💡, 🔥</td>
 </tr>
 <tr>
-<td>Missing mouse wheel support</td>
-<td>💡, 🔥</td>
-</tr>
-<tr>
 <td>Missing drag and drop support</td>
 <td>💡, 🔥</td>
 </tr>
 <tr>
-<td>Desktop DPI must be set to 100%</td>
+<td>Desktop DPI should be set to 100%</td>
 <td>⏳</td>
 </tr>
 <tr>
@@ -264,7 +260,7 @@ YEAH! You rock!!!</td>
 
 ![Supported Input Methods](screenshots/fsdesktop-supported-input.png)
 
-*Supported Input Methods*
+_Supported Input Methods_
 
 ---
 
@@ -304,7 +300,7 @@ Select a directory where you want to install the FSdesktop main application. The
 
 ![Select a Server Directory](screenshots/fsdesktop-windows-installer-1.png)
 
-*Select a Server Directory*
+_Select a Server Directory_
 
 <div style="page-break-after: always;"></div>
 
@@ -316,7 +312,7 @@ IMPORTANT: Just pick the community folder! Do not add any subfolders. Otherwise 
 
 ![Locate your MSFS Community Folder](screenshots/fsdesktop-windows-installer-2.png)
 
-*Locate your MSFS Community Folder*
+_Locate your MSFS Community Folder_
 
 <div style="page-break-after: always;"></div>
 
@@ -326,13 +322,13 @@ You should now see a summary of what the installer will copy to what folders. Cl
 
 ![FSdesktop Start Menu Items](screenshots/fsdesktop-windows-installer-3.png)
 
-*FSdesktop Start Menu Items*
+_FSdesktop Start Menu Items_
 
 ### Upgrading to a New Version
 
 When upgrading to a new version, you should unistall the old one. You are free to try to simply "update" what you already have, but I don't recommend it. Old files may interfere with new ones and break the mod. Therefore, in case you encounter bugs after upgrading, properly uninstall FSdesktop and go for a fresh install!
 
-Make sure to backup your license information, though, just to be save :-) 
+Make sure to backup your license information, though, just to be save :-)
 
 <div style="page-break-after: always;"></div>
 
@@ -346,7 +342,7 @@ Place the contents of `application` folder somewhere convenient (like `C:\Tools\
 
 ![Main Application Installation](screenshots/fsdesktop-install-application-1.png)
 
-*Main Application Installation*
+_Main Application Installation_
 
 <div style="page-break-after: always;"></div>
 
@@ -356,13 +352,13 @@ Place the folder `christian1984-ingamepanel-fsdesktop` in your MSFS community fo
 
 ![Panel Installation](screenshots/fsdesktop-install-panel-1.png)
 
-*Panel Installation*
+_Panel Installation_
 
 When finished, your Community folder should look like this (though there may be more than one extension installed, obviously).
 
 ![Panel Installation - Done](screenshots/fsdesktop-install-panel-2.png)
 
-*Panel Installation - Done*
+_Panel Installation - Done_
 
 ### Manually Upgrading to a New Version
 
@@ -381,33 +377,36 @@ In order to launch FSdesktop, you need to do two things:
 
 ## Start FSdesktop
 
-- Step 1: Run `fsdesktop.exe` by clicking either the appropriate desktop icon or selecting it from the start menu. This will bring up the FSdesktop core application's desktop window. FSdesktop will now wait for Microsoft Flight Simulator and connect to it.
-- Step 2: Start Microsoft Flight Simulator. You can do this by either clicking the appropriate icon on your desktop.
-- Step 3: Open up the ingame panel once inside the sim (like you would do with other ingame panels like the ATC or weather panel etc.)
-- Step 4: Place the FSdesktop Panel conveniently in your VR space
-- Step 5: Click one of the desktop windows that FSdesktop has found to see them in VR.
+-   Step 1: Run `fsdesktop.exe` by clicking either the appropriate desktop icon or selecting it from the start menu. This will bring up the FSdesktop core application's desktop window. FSdesktop will now wait for Microsoft Flight Simulator and connect to it.
+-   Step 2: Start Microsoft Flight Simulator. You can do this by either clicking the appropriate icon on your desktop.
+-   Step 3: Open up the ingame panel once inside the sim (like you would do with other ingame panels like the ATC or weather panel etc.)
+    > When you open the FSdesktop ingame panel for the very first time, you will be greated by an interactive tour that will guide you through the basics of how the application works. Please, please, pretty please: Take the time to follow along and do not skip the tour. It has some very important information in it!
+-   Step 4: Place the FSdesktop Panel conveniently in your VR space
+-   Step 5: Click one of the desktop windows that FSdesktop has found to see them in VR.
 
 > Please Note:
-> 
+>
 > To get the best out of FSdesktop, please make sure that you run Microsoft Flight Simulator windowed, NOT in full screen.
-> 
+>
 > ![FSdesktop - Run Flight Simulator in Fullscreen Mode](screenshots/fsdesktop-windowed.png)
-> 
-> *Run Flight Simulator in Fullscreen Mode*
-> 
+>
+> _Run Flight Simulator in Fullscreen Mode_
+>
 > Also, you want to make sure that the window you are about to stream into your VR space is at least party visible.
-> 
+>
 > ![FSdesktop - The Application Should be Partly Visible](screenshots/fsdesktop-partly-visible.png)
-> 
-> *The Application Should be Partly Visible*
+>
+> _The Application Should be Partly Visible_
 
 ## Activate Your License
 
-If you have purchased a license for FSdesktop, you can activate it by simply entering your email address (the one you used to order) and your serial number in the appropriate fields of the FSdesktop application window.
+If you have purchased a license for FSdesktop, you can activate it by simply entering your email address (the one you used to order) and your serial number in the appropriate fields of the FSdesktop application window. Then click "Checkout FSdesktop License".
+
+If the checkout was successful, your credentials will be stored and, going forward, the license will be checked out automatically when FSdesktop launches.
 
 ![FSdesktop - How to Activate Your License](screenshots/fsdesktop-activate-license.png)
 
-*How to Activate Your License*
+_How to Activate Your License_
 
 ## How To Bring Up The FSdesktop Panel in VR
 
@@ -415,7 +414,7 @@ In order to open up the actual FSdesktop panel inside MSFS, first enter VR mode.
 
 ![FSdesktop - How to open the ingame panel](screenshots/fsdesktop-usage-open-panel.png)
 
-*How to open the ingame panel (old icon)*
+_How to open the ingame panel (old icon)_
 
 ---
 
@@ -425,26 +424,38 @@ In order to open up the actual FSdesktop panel inside MSFS, first enter VR mode.
 
 The FSdesktop server can be started with several commandline arguments to further customize its behaviour. In general, all you need to do is add them behind your "fsdesktop.exe" shortcut.
 
-- `--log [level]`: Set log level and enable logging to file. `[level]` can be any of `debug | info | warn | error | off` (defaults to `off`). Use together with flag `--verbose` to also log to `stdout`. This will override/adjust the settings previously set through the GUI. Also, if you encounter issues during FSdesktop startup, running `fsdesktop.exe --log debug` is the way to go!
-- `--resettour`: Reset the tour(s).
+-   `--log [level]`: Set log level and enable logging to file. `[level]` can be any of `debug | info | warn | error | off` (defaults to `off`). Use together with flag `--verbose` to also log to `stdout`. This will override/adjust the settings previously set through the GUI. Also, if you encounter issues during FSdesktop startup, running `fsdesktop.exe --log debug` is the way to go!
+-   `--resettour`: Reset the tour(s).
 
 ![Log Level Shortcut](screenshots/fsdesktop-cli.png)
 
-*Log Level Shortcut*
+_Log Level Shortcut_
 
 <div style="page-break-after: always;"></div>
 
 # Troubleshooting
 
+## "I can stream my appication with FSdeskto, but I cannot interact with it. What is wrong?"
+
+> Please make sure that your setup complies with the following prerequisites:
+>
+> 1. Make sure MSFS runs in **windowed** mode
+> 2. Make sure that the window you are going to use is at **least partly visible**
+> 3. Ensure that your desktop runs at **100% DPI**
+>
+> Finally, it appears that Windows 11 users experience issues with controlling there applications when in VR. This issue is under investigation.
+
 ## "I cannot see the FSdesktop ingame panel inside MSFS. What is wrong?"
 
 > There are typically two reasons why this can happen:
+>
 > 1. First, make sure that you have opened up MSFS's ingame toolbar. In 2D mode, that happens automatically when you hover your mouse over the chevron on the very top of the window. In VR mode you need to press the `[TAB]` key to bring up this toolbar! Now, double-check whether the FSdesktop icon appears on that toolbar or not. If it does, then click it. Issue solved :-)
 > 2. Second, if the icon does not appear, it is very likely that the ingame panel was installed to the wrong directory. To identify the proper community folder please read the next section and then come back... Got your community folder location? Great! Now uninstall FSdesktop and run the installer again. When prompted to enter your community folder location, enter the community folder path that you have just identified. Restart MSFS and the panel should appear.
 
 ## "I cannot find my community folder. Help!!!"
 
 > Here's how to localize your active community folder with 100% certainty:
+>
 > 1. Start MSFS and wait for the main menu to be loaded.
 > 2. Now click Options > General
 > 3. Open the "Developers"-settings-page, which is located at the bottom of the list on the left
@@ -455,10 +466,14 @@ The FSdesktop server can be started with several commandline arguments to furthe
 ## "Everything inside the FSdesktop panel appears stretched!"
 
 > Please make sure that the main MSFS window has roughly a 16:9 aspect ratio as shown below:
-> 
+>
 > ![FSdesktop - Flight Simulator Window Aspect Ratio](screenshots/fsdesktop-aspect-ratio.png)
-> 
-> *Flight Simulator Window Aspect Ratio*
+>
+> _Flight Simulator Window Aspect Ratio_
+
+## "I have skipped the tour and now I would like to watch it again. How can I accomplish that?"
+
+> Easy. Open the FSdesktop main application and navigate to the settings tab. From here, click the "Restart Tour" button. Then close and reopen the FSdesktop ingame panel. The tour should now start.
 
 ---
 
@@ -468,11 +483,11 @@ This project was inspired by [bymaximus/msfs2020-toolbar-window-template](https:
 
 ### Icons
 
-- Icons provided by [FontAwesome](https://fontawesome.com/license/free).
-- Tour icons provided by:
-  - [Left click icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/left-click)
-  - [Scroll icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/scroll)
-  - [Typing icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/typing)
+-   Icons provided by [FontAwesome](https://fontawesome.com/license/free).
+-   Tour icons provided by:
+    -   [Left click icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/left-click)
+    -   [Scroll icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/scroll)
+    -   [Typing icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/typing)
 
 ---
 
