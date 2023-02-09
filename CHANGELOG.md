@@ -1,3 +1,19 @@
+# v0.3.0
+
+## MAJOR
+
+-   improved input recognition on Windows 11 machines
+-   added selector for input processing speed to core application's settings tab
+-   moved ingame panel settings (background color, framerate, and quality controls) to "burger menu"
+
+## MINOR
+
+-   changed ingame panel's stream quality default setting to "high"
+-   improved ingame panel tab selector
+-   migrated the entire ingame panel GUI from vanilla javascript to react
+
+---
+
 # v0.2.0
 
 ## MAJOR

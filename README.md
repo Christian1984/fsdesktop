@@ -408,6 +408,14 @@ If the checkout was successful, your credentials will be stored and, going forwa
 
 _How to Activate Your License_
 
+## Adjust The Core Application Seetings
+
+In the FSdesktop core application's settings dialog you'll find the following options:
+
+-   **Input Speed**: Optimize the input speed depending on your particular system and setup. For Windows 11, it is recommended to set the input speed to slow. This allows Windows 11 a little bit more time to switch between applications and finally process your input. The option "slowest" should only be used as a last resort. If you encounter issues with input processing, play around with these settings until you find a setting that works well for you.
+-   **Ingame Tour**: Click this button to restart the FSdesktop ingame panel tour.
+-   **Log Level**: Configure the log level. Set to "Debug" if you want to submit a log for me to analyze, otherwise let it sit on "Warning".
+
 ## How To Bring Up The FSdesktop Panel in VR
 
 In order to open up the actual FSdesktop panel inside MSFS, first enter VR mode. Next, hit the `[TAB]` key to bring up the ingame toolbar and click the FSdesktop icon to bring up the ingame panel.
@@ -415,6 +423,14 @@ In order to open up the actual FSdesktop panel inside MSFS, first enter VR mode.
 ![FSdesktop - How to open the ingame panel](screenshots/fsdesktop-usage-open-panel.png)
 
 _How to open the ingame panel (old icon)_
+
+## Adjust the Ingame Panel Settings
+
+When actively streaming a window into Flight Simulator, FSdesktop will show a little "burger menu" on the top right of the ingame panel. Click it to reveal the ingame panel settings dialog with the following settings:
+
+-   **Image Quality**: Set the image quality of the streamed window to low, medium or high, depending on your particular needs. High will show the streamed window very crisp and with a high resolution, but streaming larger windows with this setting may impact Flight Simulator's performance. Use medium or low if you want to prioritize performance over quality.
+-   **Refresh Rate**: Set the frame rate of the streamed window to low, medium or high. High will update the image of the streamed window very frequently, i.e. result in a high panel framerate, but streaming larger windows with this setting may impact Flight Simulator's performance. Use medium or low if you want to prioritize performance over quality.
+-   **Background**: Set the background of the streamed window to either black or white.
 
 ---
 
