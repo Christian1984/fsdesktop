@@ -1,3 +1,12 @@
+# v0.4.0
+
+## MAJOR
+
+-   added a new "run as administartor" mode for the FSdesktop input processor (which has been extracted into a separate process) to improve compatibiliy particularly with application that, themselves, run with elevated privileges.
+-   added a slider to the core application to adjust the ingame panel's UI scale
+
+---
+
 # v0.3.0
 
 ## MAJOR

@@ -408,12 +408,28 @@ If the checkout was successful, your credentials will be stored and, going forwa
 
 _How to Activate Your License_
 
+<div style="page-break-after: always;"></div>
+
 ## Adjust The Core Application Seetings
+
+![FSdesktop - Core Application Settings](screenshots/fsdesktop-settings.png)
+
+_Core Application Settings_
 
 In the FSdesktop core application's settings dialog you'll find the following options:
 
+-   **Ingame Panel Scaling**: Depending on your screen resolution, the size of your MSFS window and other factors (such as newly released Sim Updates 🙄) you may consider changing your FSdesktop ingame panel's scaling. For most users 100% will work just fine and if you are happy with the appearance of FSdesktop, there is no reason to touch this slider. If you are not, you can use this slider to increase or decrease the ingame panels resolution, making the appearance of the app's UI elements smaller or larger and also affecting the resolution of the streamed content.
+
 -   **Input Speed**: Optimize the input speed depending on your particular system and setup. For Windows 11, it is recommended to set the input speed to slow. This allows Windows 11 a little bit more time to switch between applications and finally process your input. The option "slowest" should only be used as a last resort. If you encounter issues with input processing, play around with these settings until you find a setting that works well for you.
+
+-   **Input Processor Privileges**: If you run into issues where you find that a particular app cannot be controlled with FSdesktop, you can use this checkbox to restart the input processor (the software piece that actually takes your mouse clicks and sends them to the target application) with administrator privileges. Note that this will trigger the Windows UAC asking you for permission to start the input processor with elevated privileges. You may always revoke granted privileges by simply unchecking this box.
+
+    > PLEASE NOTE: This feature is considered experimental. It **may** help with controlling other applications, particularly those that, themselves, run with elevated privileges. My own tests showed improvements with some applications, but your milage may vary. Either way, please provide tons of feedback over at https://discord.fsdesktop.com! 💪
+    >
+    > Also, note that I typically advice users to grant third party software (mine included) as little privileges as possible. Please use this feature only as a last resort!\_
+
 -   **Ingame Tour**: Click this button to restart the FSdesktop ingame panel tour.
+
 -   **Log Level**: Configure the log level. Set to "Debug" if you want to submit a log for me to analyze, otherwise let it sit on "Warning".
 
 ## How To Bring Up The FSdesktop Panel in VR
@@ -422,9 +438,13 @@ In order to open up the actual FSdesktop panel inside MSFS, first enter VR mode.
 
 ![FSdesktop - How to open the ingame panel](screenshots/fsdesktop-usage-open-panel.png)
 
-_How to open the ingame panel (old icon)_
+_How to open the ingame panel_
 
 ## Adjust the Ingame Panel Settings
+
+![FSdesktop - Ingame Panel Settings](screenshots/fsdesktop-settings-panel.png)
+
+_Ingame Panel Settings_
 
 When actively streaming a window into Flight Simulator, FSdesktop will show a little "burger menu" on the top right of the ingame panel. Click it to reveal the ingame panel settings dialog with the following settings:
 
@@ -492,6 +512,8 @@ _Log Level Shortcut_
 > Easy. Open the FSdesktop main application and navigate to the settings tab. From here, click the "Restart Tour" button. Then close and reopen the FSdesktop ingame panel. The tour should now start.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Attribution
 
