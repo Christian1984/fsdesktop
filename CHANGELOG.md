@@ -1,3 +1,13 @@
+# v0.5.0
+
+## MAJOR
+
+-   added onscreen keyboard
+-   added always on top option for server window
+-   added manual DPI settings
+
+---
+
 # v0.4.0
 
 ## MAJOR

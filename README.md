@@ -224,24 +224,12 @@ YEAH! You rock!!!</td>
 </thead>
 <tbody>
 <tr>
-<td>Click recognition and forwarding should be more reliable</td>
-<td>💡, 🔥, it appears that this mostly impacts Windows 11 users, I am currently inverstigating the issue</td>
-</tr>
-<tr>
 <td>Currently only one window can be streamed at any given time; must go back to to window selector tab to switch</td>
-<td>💡, 🔥</td>
-</tr>
-<tr>
-<td>Missing keyboard support (physical and onboard)</td>
 <td>💡, 🔥</td>
 </tr>
 <tr>
 <td>Missing drag and drop support</td>
 <td>💡, 🔥</td>
-</tr>
-<tr>
-<td>Desktop DPI should be set to 100%</td>
-<td>⏳</td>
 </tr>
 <tr>
 <td>Windows/Applications must be at least partially visible</td>
@@ -396,7 +384,7 @@ In order to launch FSdesktop, you need to do two things:
 >
 > ![FSdesktop - The Application Should be Partly Visible](screenshots/fsdesktop-partly-visible.png)
 >
-> _The Application Should be Partly Visible_
+> _The Application Should be Partly (Ideally Fully) Visible_
 
 ## Activate Your License
 
@@ -419,16 +407,15 @@ _Core Application Settings_
 In the FSdesktop core application's settings dialog you'll find the following options:
 
 -   **Ingame Panel Scaling**: Depending on your screen resolution, the size of your MSFS window and other factors (such as newly released Sim Updates 🙄) you may consider changing your FSdesktop ingame panel's scaling. For most users 100% will work just fine and if you are happy with the appearance of FSdesktop, there is no reason to touch this slider. If you are not, you can use this slider to increase or decrease the ingame panels resolution, making the appearance of the app's UI elements smaller or larger and also affecting the resolution of the streamed content.
-
+-   **Ingame Tour**: Click this button to restart the FSdesktop ingame panel tour.
 -   **Input Speed**: Optimize the input speed depending on your particular system and setup. For Windows 11, it is recommended to set the input speed to slow. This allows Windows 11 a little bit more time to switch between applications and finally process your input. The option "slowest" should only be used as a last resort. If you encounter issues with input processing, play around with these settings until you find a setting that works well for you.
-
+-   **Desktop DPI Settings**: If you have a high resolution monitor, chances are that you are running Windows at DPI-Settings of 125% or above. If that is the case, adjust the DPI settings here to match your desktop resolution/DPI settings.
+-   **Always On Top**: Pilots who encounter issues with controlling their apps through FSdesktop may improve their experience by floating the FSdesktop server window "always on top". This seems to be especially true for VR pilots, so give this a shot. If you enable this option the server window will automatically collapse when it loses focus, but will remain on top of all other applications!
 -   **Input Processor Privileges**: If you run into issues where you find that a particular app cannot be controlled with FSdesktop, you can use this checkbox to restart the input processor (the software piece that actually takes your mouse clicks and sends them to the target application) with administrator privileges. Note that this will trigger the Windows UAC asking you for permission to start the input processor with elevated privileges. You may always revoke granted privileges by simply unchecking this box.
 
     > PLEASE NOTE: This feature is considered experimental. It **may** help with controlling other applications, particularly those that, themselves, run with elevated privileges. My own tests showed improvements with some applications, but your milage may vary. Either way, please provide tons of feedback over at https://discord.fsdesktop.com! 💪
     >
     > Also, note that I typically advice users to grant third party software (mine included) as little privileges as possible. Please use this feature only as a last resort!\_
-
--   **Ingame Tour**: Click this button to restart the FSdesktop ingame panel tour.
 
 -   **Log Level**: Configure the log level. Set to "Debug" if you want to submit a log for me to analyze, otherwise let it sit on "Warning".
 
@@ -451,6 +438,18 @@ When actively streaming a window into Flight Simulator, FSdesktop will show a li
 -   **Image Quality**: Set the image quality of the streamed window to low, medium or high, depending on your particular needs. High will show the streamed window very crisp and with a high resolution, but streaming larger windows with this setting may impact Flight Simulator's performance. Use medium or low if you want to prioritize performance over quality.
 -   **Refresh Rate**: Set the frame rate of the streamed window to low, medium or high. High will update the image of the streamed window very frequently, i.e. result in a high panel framerate, but streaming larger windows with this setting may impact Flight Simulator's performance. Use medium or low if you want to prioritize performance over quality.
 -   **Background**: Set the background of the streamed window to either black or white.
+
+## Using the Onscreen Keyboard
+
+In order to use the onscreen keyboard to send keyboard inputs to your application, click the keyboard icon on the bottom of the FSdesktop ingame panel. This will toggle the keyboard.
+
+![FSdesktop - Onscreen Keyboard (Collapsed)](screenshots/fsdesktop-keyboard-collapsed.png)
+
+Now, click any key to send it off to the target application.
+
+![FSdesktop - Onscreen Keyboard (Expanded)](screenshots/fsdesktop-keyboard-expanded.png)
+
+> Please note that this feature respects your windows keyboard setup. If, for example, you are using a german keyboard on your machine and you type "Shift-2", you will not send an (@) to the application, but rather a (").
 
 ---
 
@@ -477,7 +476,7 @@ _Log Level Shortcut_
 >
 > 1. Make sure MSFS runs in **windowed** mode
 > 2. Make sure that the window you are going to use is at **least partly visible**
-> 3. Ensure that your desktop runs at **100% DPI**
+> 3. Ensure that your desktop runs at **100% DPI**, or adjust the DPI settings on the settings tab to match your desktop's DPI scale.
 >
 > Finally, it appears that Windows 11 users experience issues with controlling there applications when in VR. This issue is under investigation.
 
